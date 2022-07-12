@@ -1,5 +1,5 @@
 # Demo_enclosing_method
-Demo of the enclosing method to verify robust positive invairance for ellipsoids. This folder is composed of 2 examples, one blank model and the toolbox header.
+Demo of the enclosing method to verify robust positive invairance for ellipsoids. This folder is composed of 2 examples, one blank model and the toolbox header. Dependencies: sympy, numpy, scipy, random, math, codac, matplotlib, time
 
 ## pendulum_example.py
 Frist example, the stability of a simple pendulum with friction:
@@ -10,7 +10,7 @@ x2_dot = -sin(x1)-2*x2+w1
 
 Three state ellipsoids are tested: Q1 (is robust positive invariant), Q2 (is not positive invariant) and Q3 (is too small to be verified positive invariant).
 The noise amplitude can be tuned with "Wi_box".
-results are visible in pendulum_result/ .
+Results are visible in pendulum_result/ .
 
 ## platooning_example.py
 2nd example - the stability of a n-dimensional system.
@@ -20,7 +20,7 @@ The cars are controlled to maintain equal distances. Three parameters can be tun
 - the disturbance amplitude "w_i"
 - the scale factor of the ellipsoid Q "q_i"
 
-results are visible in platooning_result/.
+Results are visible in platooning_result/.
 
 ## blank model
 Follow the instructions in blank_model.py to use the enlosing method on your system
