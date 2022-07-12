@@ -1,5 +1,5 @@
 # Test Robust positive invariance on 2d nonlinear system
-from lib.article_toolbox import *
+from lib.enclosing_method_toolbox import *
 
 print("Pendulum example")
 ###############################################

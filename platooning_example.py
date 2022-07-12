@@ -1,6 +1,6 @@
 # Test Robust positive invariance on high dimensional nonlinear system
 # you can test different values of m, w_i and q_i and see the result in sim.png and states.png
-from lib.article_toolbox import *
+from lib.enclosing_method_toolbox import *
 
 print("platooning example")
 m = 5 # number of robots
