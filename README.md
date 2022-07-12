@@ -19,6 +19,7 @@ The cars are controlled to maintain equal distances. Three parameters can be tun
 - the number of cars "m"
 - the disturbance amplitude "w_i"
 - the scale factor of the ellipsoid Q "q_i"
+
 results are visible in platooning_result/.
 
 ## blank model
