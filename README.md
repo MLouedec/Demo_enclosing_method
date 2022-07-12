@@ -1,4 +1,4 @@
-# Demo_enclosing_method
+# Demo enclosing method
 Demo of the enclosing method to verify robust positive invairance for ellipsoids. This folder is composed of 2 examples, one blank model and the toolbox header. Dependencies: sympy, numpy, scipy, random, math, codac, matplotlib, time
 
 ## pendulum_example.py
@@ -8,7 +8,7 @@ x1_dot = x2
 
 x2_dot = -sin(x1)-2*x2+w1
 
-Three state ellipsoids are tested: Q1 (is robust positive invariant), Q2 (is not positive invariant) and Q3 (is too small to be verified positive invariant).
+Three state ellipsoids are tested: Q1 (robust positive invariant), Q2 (not positive invariant) and Q3 (too small to be verified positive invariant).
 The noise amplitude can be tuned with "Wi_box".
 Results are visible in pendulum_result/ .
 
