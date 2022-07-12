@@ -2,7 +2,8 @@
 Demo of the enclosing method to verify robust positive invairance for ellipsoids. This folder is composed of 2 examples, one blank model and the toolbox header.
 
 ## pendulum_example.py
-1st example - the stability of a simple pendulum with friction \n
+1st example - the stability of a simple pendulum with friction
+
 "
 x1_dot = x2
 x2_dot = -sin(x1)-2*x2+w1
