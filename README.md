@@ -1,6 +1,8 @@
 # Demo enclosing method
 Demo of the enclosing method to verify robust positive invairance for ellipsoids. This folder is composed of 2 examples, one blank model and the toolbox header. Dependencies: sympy, numpy, scipy, random, math, codac, matplotlib, time.
 
+This repositary is related to the paper Louedec, M., Jaulin, L., & Viel, C. (2023). Computational tractable guaranteed numerical method to study the stability of n-dimensional time-independent nonlinear systems with bounded perturbation. Automatica, 153, 110981.
+
 ## pendulum_example.py
 Frist example, the stability of a simple pendulum with friction. Command to launch:
 
